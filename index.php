@@ -17,7 +17,7 @@
 		<b>Welcome to 3DS Monster</b>
 		<br><br><br>
 		<a href="tutorial1.php">
-			<span class="tic_button"> Click to tutorial</span>
+			<span class="tic_button"> Click to tutorials</span>
 		</a>
 		<br><br>
 	</div>
