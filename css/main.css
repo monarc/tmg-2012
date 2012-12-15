@@ -1,0 +1,267 @@
+html,body,a,p,td,div,span{
+    font-family: Arial,Helvetica,sans-serif;font-size:small;
+}
+body,td,tr,img,p,div,span,a
+{
+    border: 0 none;
+    margin: 0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+}
+table{border-collapse:collapse;border-spacing:0;border: 0 none;}
+
+
+body {
+    background-color:#fff9f7;
+}
+
+.tic_header {
+    background:url(/img/header/bg_logo.gif) repeat-x;
+    height:29px;
+}
+
+.tic_nav {
+    background:#fffd9d;
+    border-bottom:1px solid #ffa293;
+    padding:4px 0 2px 0;
+}
+
+.tic_body {
+    background:#fffd9d;
+	padding: 10px 0 10px 0;
+}
+
+.tic_title-left {
+    background:#da1400;
+}
+
+.tic_title {
+    background:#ff7514 url(../images/gui/bg_title.gif) repeat-y;
+    padding-top:2px;
+}
+
+.tic_title-right {
+    background:#ff7514;
+}
+
+.tic_tab-left {
+    background:#ffa622;
+}
+
+.tic_tab {
+    background:#ffcc86 url(/img/gui/bg_tabs.gif) repeat-y;
+}
+
+.tic_tab-right {
+    background:#ffcc86;
+}
+
+.tic_tab-active {
+    background:#fff9f7;
+}
+
+.tic_block {
+    margin:0 auto;
+}
+
+.tic_avatar, .tic_avatar-small, .tic_avatar-main {
+    background:#ffffff;
+    padding:2px;
+    border:1px solid #cdcdcd;
+}
+
+.tic_avatar-small {
+    padding:1px;
+}
+
+.tic_avatar-main {
+    padding:3px;
+}
+
+.tic_icon {
+    background:#ffffff;
+    padding:2px;
+    border:1px solid #ffc8a1;
+}
+
+.tic_button {
+    background:#ff0042;
+    text-transform:uppercase;
+    padding:10px;
+    color:#ffffff;
+}
+
+.tic_bubble-blue {
+    background-color: #dff8fa; 
+    border: 1px solid #d9d9d9; 
+    border-left: none; 
+    color: #0053a1;
+}
+.tic_bubble-blue-border {
+    border-right: 1px solid #d9d9d9; 
+}
+
+.tic_submit {
+    width:auto;
+    background-color:#fffd9d;
+    border:0px;
+    color:#640d0d;
+    border-top:#ff6b54 2px solid;
+    border-left:#ff6b54 2px solid;
+    border-bottom:#d81e00 2px solid;
+    border-right:#d81e00 2px solid;
+}
+
+a.tic_submit {
+    padding: 0 5px;
+}
+
+.tic_footer {
+    background:#e46100;
+    color:#fff;
+    border-top:1px solid #e87926;
+    margin-top:0px;
+    padding-bottom:10px;
+}
+
+.tic_footer-highlight {
+    background:#e87926;
+    padding:2px 0 3px 0;
+}
+
+.tic_border-orange          { border:1px solid #ffc8a1; }
+.tic_border-blue            { border:1px solid #97dee4; }
+.tic_border-red             { border:2px solid #ff0042; }
+.tic_border-pink            { border:1px solid #ffc5bb; }
+
+.tic_border-top-0           { border-top:none; }
+.tic_border-btm-0           { border-bottom:none; }
+.tic_border-left-0          { border-left:none; }
+.tic_border-right-0         { border-right:none; }
+
+.tic_width-full             { width:220px; }
+.tic_width-border           { width:218px; }
+.tic_width-padding-border   { width:208px; }
+
+.tic_bg-white               { background:#ffffff; }
+.tic_bg-grey                { background:#f4f4f4; }
+.tic_bg-blue                { background:#dff8fa; }
+.tic_bg-pink                { background:#fee9e9; }
+
+.tic_center                 { text-align:center; }
+.tic_left                   { text-align:left; }
+.tic_right                  { text-align:right; }
+
+.tic_bold                   { font-weight:bold; }
+.tic_underline              { text-decoration:underline; }
+.tic_uppercase              { text-transform:uppercase; }
+.tic_small                  { font-size:small; }
+.tic_large                  { font-size:large; }
+
+.tic_default-color          { color:#5a7176; }
+.tic_white                  { color:#ffffff; }
+.tic_vermillion             { color:#c61c00; }
+.tic_marine                 { color:#0053a1; }
+.tic_skyblue                { color:#00afa8; }
+.tic_babyblue               { color:#5a7176; }
+.tic_light-grey             { color:#a9a9a9; }
+.tic_red                    { color:red; }
+
+.tic_margin-0               { margin:0; }
+.tic_margin-5               { margin:5px; }
+.tic_margin-top-0           { margin-top:0; }
+.tic_margin-top-5           { margin-top:5px; }
+.tic_margin-top-10          { margin-top:10px; }
+.tic_margin-btm-5           { margin-bottom:5px; }
+.tic_margin-btm-10          { margin-bottom:10px; }
+.tic_margin-right-5         { margin-right:5px; }
+.tic_margin-right-10        { margin-right:10px; }
+
+.tic_padding-0              { padding:0; }
+.tic_padding-5              { padding:5px; }
+.tic_padding-top-2          { padding-top:2px; }
+.tic_padding-top-5          { padding-top:5px; }
+.tic_padding-top-10         { padding-top:10px; }
+.tic_padding-left-2         { padding-left:2px; }
+.tic_padding-left-5         { padding-left:5px; }
+.tic_padding-right-2        { padding-right:2px; }
+.tic_padding-right-5        { padding-right:5px; }
+.tic_padding-btm-2          { padding-bottom:2px; }
+.tic_padding-btm-5          { padding-bottom:5px; }
+.tic_padding-btm-10         { padding-bottom:10px; }
+
+
+.tic_signup {
+    text-align:center;
+    color:white;
+    background-image:url('../images/gui/landing_gradient.png');
+    background-repeat:repeat-x;
+    background-color:#cd5700;
+}
+
+.tic_register-bar {
+    padding:0 2px;
+    text-align:center;
+    color:#ffffff;
+    background:url('../images/gui/landing_bar.png') repeat-x;
+    line-height:22px;
+    font-style:italic;
+    background-color: red;
+}
+
+.tic_prompt {
+    background-color:#e7e7e7;
+    text-align:center;
+    padding:3px 7px 3px 7px;
+}
+
+.tic_prompt .tic_inner {
+    background:url('/img/gui/alert_pattern2.gif');
+    vertical-align:middle;
+    padding:3px 5px 3px 5px;
+    border:#989898 solid 1px;
+}
+
+.tic_prompt .tic_inner a {
+    color:#ffffff;
+    font-weight:bold;
+}
+
+.tic_prompt img {
+    vertical-align:top;
+}
+
+.tic_prompt a.tic_link {
+    color:#ffffff;
+}
+
+.tic_prompt a.tic_choice {
+    color:#999000; /* original:#900 - no contrast with background! */
+    text-decoration:none;
+    font-weight:bold;
+}
+ 
+.error_message {
+	color:#F00;
+	padding:5px;
+}
+.tic_room_creator {
+	color:#00F;
+	font-weight:bold;
+}
+.tic_room_opponent {
+	color:#F00;
+	font-weight:bold;
+}
+.tic_room_vs {
+	color:#000;
+	font-weight:bold;
+}
+
+.tic_box_game {
+	border:3px #000 solid;
+	width:60px;
+	height:60px;
+}
