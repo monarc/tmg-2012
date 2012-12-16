@@ -14,15 +14,14 @@
 	<?php include "header.php"; ?>
     
 	<div class="tic_body" align="center">
-		<b>Welcome to 3DS Monsters</b>
+		<b>Choose your Monsters</b>
 		<br><br><br>
-		<a href="tutorial1.php">
-			<span class="tic_button"> Click to tutorials</span>
+		<a href="battle2.php">
+			<span class="tic_button"> >> </span>
 		</a>
 		<br><br>
 	</div>
 	 
-	
 	<?php include "footer.php"; ?>
 	
 </body>
