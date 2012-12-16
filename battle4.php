@@ -9,11 +9,22 @@
 	
 	<?php include "header.php"; ?>
         
+    
+<?php
+    if(isset($_POST['monster_1'])){
+        if($_POST['monster_1'] == '5')
+            $condition = "WIN";
+       else {
+            $condition = "LOSE";
+        }
+    }
+     
+?>    
+    
 	<div class="tic_body" align="center">
-		<b>Enemy</b>
+            <div style="font-size: 26px; font-weight: bold;">YOU <?=$condition;?>!!!</div>
                 
                 <form action="battle3.php" method="post"> 
-                    <input type="hidden" name="monster_1" id="monster_1" value="<?=$_POST['monster_1'];?>">
 		<br><br>
                 <table>
                     <tr>
@@ -35,15 +46,16 @@
                 <table>
                     <tr>
                         <td>
-		
-			<input type="submit" id="battle2" name="battle2" class="tic_button" value=" Battle ">
+		<a href="battle1.php">
+			<button type="button" class="tic_button">Battle Again</button>
+		</a>
                         </td>
-                        <td> 
-                        <a href="battle1.php">
-                        <button type="button" class="tic_button">Retreat</button>
-                        </a>
-
+                        <td>                
+                        <button type="button" class="tic_button">Add Friend</button>
                         </td>
+                         <td>                
+                        <button type="button" class="tic_button">Message</button>
+                        </td>                       
 
                         </tr>
                 </table>

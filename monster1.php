@@ -19,27 +19,20 @@ function addLink(obj)
             <td>
                 <a href="javascript://" onclick="addLink(this);">
                     <img src="images/game/monsters/1.jpg" width="50" height="50">
-                    <input type="hidden" name="attack_1" id="attack_1" value="5">
-                    <input type="hidden" name="defense_1" id="defense_1" value="1">
+                    <input type="hidden" name="monster_1" id="monster_1" value="5">
                 </a>
             </td>
             <td>
                 <a href="javascript://" onclick="addLink(this);">
                     <img src="images/game/monsters/2.jpg" width="50" height="50">
-                    <input type="hidden" name="attack_1" id="attack_2" value="5">
-                    <input type="hidden" name="defense_1" id="defense_2" value="1"> 
                </a>
             </td>
             <td>
-                <a href="javascript://" onclick="addLink(this);"><img src="images/game/monsters/3.gif" width="50" height="50">
-                    <input type="hidden" name="attack_1" id="attack_3" value="1">
-                    <input type="hidden" name="defense_1" id="defense_3" value="1">                 
+                <a href="javascript://" onclick="addLink(this);"><img src="images/game/monsters/3.gif" width="50" height="50">          
                 </a>
             </td>
             <td>
                 <a href="javascript://" onclick="addLink(this);"><img src="images/game/monsters/4.jpg" width="50" height="50">
-                    <input type="hidden" name="attack_1" id="attack_4" value="1">
-                    <input type="hidden" name="defense_1" id="defense_4" value="1">                     
                 </a>
             </td>
         </tr>
