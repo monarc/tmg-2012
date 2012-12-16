@@ -17,11 +17,6 @@ body {
     background-color:#fff9f7;
 }
 
-.tic_smartphone{
-    width:321px;
-    border: 1px solid #999999;
-}
-
 .tic_header {
     background:url(/img/header/bg_logo.gif) repeat-x;
     height:29px;
@@ -34,9 +29,8 @@ body {
 }
 
 .tic_body {
-    background:#ffffff;
-    padding: 15px 0 15px 0;
-    min-height:270px;
+    background:#fffd9d;
+	padding: 10px 0 10px 0;
 }
 
 .tic_title-left {
@@ -125,7 +119,11 @@ a.tic_submit {
 }
 
 .tic_footer {
-    
+    background:#e46100;
+    color:#fff;
+    border-top:1px solid #e87926;
+    margin-top:0px;
+    padding-bottom:10px;
 }
 
 .tic_footer-highlight {
@@ -201,16 +199,6 @@ a.tic_submit {
     background-image:url('../images/gui/landing_gradient.png');
     background-repeat:repeat-x;
     background-color:#cd5700;
-}
-
-.tic_navigation{
-    width:320px;
-    overflow:hidden;
-}
-
-.tic_navigation img{
-    padding:0;
-    margin:0;
 }
 
 .tic_register-bar {

@@ -1,3 +1,3 @@
-<div class="tic_buttons" style="background-color: #fdf5f0;">
-    <img src="images/gui/Game_Menu_01.png" /><img src="images/gui/Game_Menu_02.png" /><img src="images/gui/Game_Menu_03.png" /><img src="images/gui/Game_Menu_04.png" />
-</div>
+<div class="tic_signup" style="background-color: #fdf5f0;">
+    3DS Monster<br>
+</div>       

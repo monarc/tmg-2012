@@ -49,9 +49,6 @@
 				<td width="60">
                                         <div id="dLinks3" style="width:50px; height:50px; border:2px #000 solid;" onclick="doPopup3(this);"></div>
                                 </td>
-				<td width="60">
-                                        <div id="dLinks4" style="width:50px; height:50px; border:2px #000 solid;" onclick="doPopup4(this);"></div>
-                                </td>
 			</tr>
 		</table>
                 
