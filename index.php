@@ -14,12 +14,10 @@
 	<?php include "header.php"; ?>
     
 	<div class="tic_body" align="center">
-		<b>Choose your Monsters</b>
-		<br><br><br>
-		<a href="battle2.php">
-			<span class="tic_button"> >> </span>
-		</a>
-		<br><br>
+		<img src="images/game/front.jpg">
+                <p style="margin-top:20px; margin-bottom:10px;">
+                    <a href="battle1.php" style="background:#FFFFFF; border-radius:5px; border:1px solid #A9A9A9; padding:10px">BEGIN</a>
+                </p>
 	</div>
 	 
 	<?php include "footer.php"; ?>

@@ -28,7 +28,7 @@ function addLink(obj)
                </a>
             </td>
             <td>
-                <a href="javascript://" onclick="addLink(this);"><img src="images/game/monsters/3.gif" width="50" height="50">          
+                <a href="javascript://" onclick="addLink(this);"><img src="images/game/monsters/3.jpg" width="50" height="50">          
                 </a>
             </td>
             <td>

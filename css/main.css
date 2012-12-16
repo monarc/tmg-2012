@@ -87,10 +87,13 @@ body {
 }
 
 .tic_button {
-    background:#ff0042;
+    background:#FFFFFF;
     text-transform:uppercase;
     padding:10px;
-    color:#ffffff;
+    color:#000000;
+    border-radius:5px;
+    border:1px solid #A9A9A9;
+    margin:2px;
 }
 
 .tic_bubble-blue {

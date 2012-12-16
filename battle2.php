@@ -13,7 +13,7 @@
 		<b>Enemy</b>
                 
                 <form action="battle3.php" method="post"> 
-                    <input type="hidden" name="monster_1" id="monster_1" value="<?=$_POST['monster_1'];?>">
+                    <input type="hidden" name="monster_1" id="monster_1" value="<?php echo $_POST['monster_1']; ?>">
 		<br><br>
                 <table>
                     <tr>
