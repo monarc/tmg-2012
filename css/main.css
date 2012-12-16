@@ -18,8 +18,9 @@ body {
 }
 
 .tic_header {
-    background:url(/img/header/bg_logo.gif) repeat-x;
-    height:29px;
+    background-color:#000;
+    height:50px;
+    padding:10px;
 }
 
 .tic_nav {
@@ -122,7 +123,7 @@ a.tic_submit {
 }
 
 .tic_footer {
-    background:#e46100;
+    background:#F00;
     color:#fff;
     border-top:1px solid #e87926;
     margin-top:0px;
