@@ -26,7 +26,7 @@
                 top:150px;
                 left:10px;
                 margin-left: 0px;
-                background-image: url(images/game/Game_01.gif); 
+                background-image: url(images/game/monsters/<?php echo $_POST['monster_1']; ?>); 
                 background-repeat: no-repeat;
             }
             #animate2		{

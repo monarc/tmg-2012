@@ -11,7 +11,7 @@
 
 
         <?php
-        if ($_POST['monster_1'] == 5)
+        if ($_POST['monster_1'] == '1.jpg')
             $condition = "WIN";
         else {
             $condition = "LOSE";

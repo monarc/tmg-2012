@@ -19,20 +19,23 @@ function addLink(obj)
             <td>
                 <a href="javascript://" onclick="addLink(this);">
                     <img src="images/game/monsters/1.jpg" width="50" height="50">
-                    <input type="hidden" name="monster_1" id="monster_1" value="5">
+                    <input type="hidden" name="monster_1" id="monster_1" value="1.jpg">
                 </a>
             </td>
             <td>
                 <a href="javascript://" onclick="addLink(this);">
                     <img src="images/game/monsters/2.jpg" width="50" height="50">
+                    <input type="hidden" name="monster_1" id="monster_1" value="2.jpg">
                </a>
             </td>
             <td>
                 <a href="javascript://" onclick="addLink(this);"><img src="images/game/monsters/3.jpg" width="50" height="50">          
+                <input type="hidden" name="monster_1" id="monster_1" value="3.jpg">
                 </a>
             </td>
             <td>
                 <a href="javascript://" onclick="addLink(this);"><img src="images/game/monsters/4.jpg" width="50" height="50">
+                <input type="hidden" name="monster_1" id="monster_1" value="4.jpg">
                 </a>
             </td>
         </tr>
