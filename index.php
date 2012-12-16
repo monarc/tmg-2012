@@ -10,7 +10,7 @@
 
 </head>
 <body> 
-    <div class="tic_smartphone">
+    <div class="tic_smartphone"">
         <?php include "header.php"; ?>
 
         <div class="tic_body" align="center">
