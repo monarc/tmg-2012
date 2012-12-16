@@ -40,13 +40,16 @@
 		<br><br>
 		<table>
 			<tr>
-				<td width="60">
+				<td width="70" align="center">
+                                        Attacker<br><br>
 					<div id="dLinks" style="width:50px; height:50px; border:2px #000 solid;" onclick="doPopup1(this);"></div>
                                 </td>
-				<td width="60">
+				<td width="70" align="center">
+                                        Defender<br><br>
                                         <div id="dLinks2" style="width:50px; height:50px; border:2px #000 solid;" onclick="doPopup2(this);"></div>
                                 </td>
-				<td width="60">
+				<td width="70" align="center">
+                                        Supporter<br><br>
                                         <div id="dLinks3" style="width:50px; height:50px; border:2px #000 solid;" onclick="doPopup3(this);"></div>
                                 </td>
 			</tr>
